@@ -35,8 +35,10 @@ Links
 - Package on pypi: http://pypi.python.org/pypi/collective.js.uix.multiselect
 
 
-Maintainer
-----------
+Credits
+-------
+
+This package is heavily based on `collective.js.ui.multiselect <http://pypi.python.org/pypi/collective.js.ui.multiselect>`_ . 
 
 
 .. _fancy widget: https://github.com/yanickrochon/jquery.uix.multiselect
