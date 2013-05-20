@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.js.uix.multiselect">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.uix.multiselect"
+      directory="profiles/default"
+      description="JQuery UIX Multiselect Plugin"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+  />
+
+  <!-- TODO: turn at least the js folder into a resource directories
+             so that locale stuff works .. or is it good enough to
+             just load the js locales? (separate jsregistry entries)  -->
+
+  <browser:resource
+      name="jquery.uix.multiselect.js"
+      file="js/jquery.uix.multiselect.js" />
+
+  <browser:resource
+      name="jquery.uix.multiselect.css"
+      file="css/jquery.uix.multiselect.css" />
+
+</configure>
