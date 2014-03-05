@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.0dev'
+version = '2.0'
 maintainer = 'Gerhard Weis'
 
 setup(name='collective.js.uix.multiselect',
@@ -43,4 +43,3 @@ setup(name='collective.js.uix.multiselect',
 target = plone
 ''',
       )
-
